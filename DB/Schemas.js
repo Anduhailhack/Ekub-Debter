@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-require('dotenv').config('../.env')
+require('dotenv').config()
 
 const ekubtegnaSchema = new mongoose.Schema({
     name: {

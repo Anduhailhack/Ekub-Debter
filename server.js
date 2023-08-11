@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
-require('dotenv').config({ path: './.env'})
+require('dotenv').config()
 
 const app = require('./app')
 

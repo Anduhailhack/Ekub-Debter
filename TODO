@@ -1,0 +1,6 @@
+- Login Middleware
+        JWT
+- Endpoints to CRUD Ekubs and Ekubtegnas
+- Endpoints to Register Payment of the Weekly Ekub
+- Endpoints to update and get Being Sold Ekubs
+- Watching Winner Video

@@ -1,0 +1,20 @@
+{
+  "name": "ekub",
+  "version": "1.0.0",
+  "description": "Ekub Debter: Node-Flutter App.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BereketeAbB/Ekub-Debter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BereketeAbB/Ekub-Debter/issues"
+  },
+  "homepage": "https://github.com/BereketeAbB/Ekub-Debter#readme"
+}

@@ -1,13 +1,15 @@
 # Installation and Setup
 Ekub Debter is an open source project, which means you can download it from github for free and set it up or develop it further for free.
 Open your terminal/CLI and execute the following commands:-
-    - `git clone git@github.com:Anduhailhack/Ekub-Debter.git`
-    - `cd Ekub-Debter`
-    - `npm i` or `npm install`
+- `git clone git@github.com:Anduhailhack/Ekub-Debter.git`
+- `cd Ekub-Debter`
+- `npm i` or `npm install`
+
 __For development purposes__
-    - `npm run dev` 
+- `npm run dev` 
+
 __For deployement purposes__
-    - `npm start`
+- `npm start`
 
 # Get started
 To get started with this project it would be easier to start from high level endpoint or root level end points. For example the following are some of the high level endpoints:-

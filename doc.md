@@ -5,37 +5,38 @@ Open your terminal/CLI and execute the following commands:-
 - `cd Ekub-Debter`
 - `npm i` or `npm install`
 
+# Get started
+After installation there are probably 2 ways you wanna go with, development or deployement. Both are documented below.
 __For development purposes__
 - `npm run dev` 
 
 __For deployement purposes__
 - `npm start`
 
-# Get started
 To get started with this project it would be easier to start from high level endpoint or root level end points. For example the following are some of the high level endpoints:-
 - `/login` 
     - **@returns** 
-    `
-        {
-            status: false,
-            result: {
-                msg: "Ekubtegna has not registered. Please register",
-                data: null
-            }
-        }
-    ` 
+    ``
+    `    {`
+    `        status: false,`
+    `           result: {`
+    `            msg: "Ekubtegna has not registered. Please register",`
+    `            data: null`
+    `        }`
+    `    }`
+    ` `
     If a given Ekubtegna is not found.
 
     - **@returns** 
-    `
-        {
-            status: false,
-            result: {
-                msg: "Incorrect username or password",
-                data: null
-            }
-        }
-    `
+    ``
+    `    {`
+    `        status: false,`
+    `        result: {`
+    `            msg: "Incorrect username or password",`
+    `            data: null`
+    `        }`
+    `    }`
+    ``
     If a given Ekubtegna is found but if the password did not checkout.
 
     - **@returns** 
